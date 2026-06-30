@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0226/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0226/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 七元璇璣召魔品經
+  date: '2015-08-29 03:00:26.253955'
+  source:
+    repository: kanripo
+    path: KR5g0226
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0226_000-HFL.yaml, hash: 'sha256:a88e9fe9cbf55022bf56d2f14f313dff6cef6f7d97270265798f9115cc3c67bb'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0226_000-HFL.markers.yaml, hash: 'sha256:2cbeb80d4dc25e32bded86fa718e6be9ab13868c0de39fc727bdb5abcce0742f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0226_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 774
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f2bb0d13f709b24682b8218afa1c85708ec5f12992c2e35338f12f138aa0a4c5

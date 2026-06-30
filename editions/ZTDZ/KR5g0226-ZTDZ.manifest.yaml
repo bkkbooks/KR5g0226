@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0226/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0226/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 七元璇璣召魔品經
+  date: '2015-08-29 03:00:26.253955'
+  source:
+    repository: kanripo
+    path: KR5g0226
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0226_000-ZTDZ.yaml, hash: 'sha256:2ba7597804328930cf210ce863160fce021f44dd3c106b3afc76478167eb5191'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0226_000-ZTDZ.markers.yaml, hash: 'sha256:adf2cc418d543c25ab219e6bb6475ba93971387808028ba90096aa4919ab8bbf'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0226_SJB_000-340447c
+    span:
+    - body
+    - 0
+    - 774
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:77417933304dd962c0977b9d7a50c7285e1e374bc84661be3349de77c24213a5
